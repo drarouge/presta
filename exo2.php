@@ -34,6 +34,4 @@ require("MagicParser.php");
   }
    
   MagicParser_parse("catalogue.XML","myRecordHandler","xml|HF_DOCUMENT/FLIGNE/");
-  foreach (record as $record){
-      mysql_query("insert into ps_product ")
-  }
+  

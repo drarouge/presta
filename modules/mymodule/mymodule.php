@@ -17,7 +17,7 @@ class MyModule extends Module  {
         parent::__construct();
 
         $this->displayName = $this->l('My module');
-        $this->description = $this->l('envoie de mail');
+        $this->description = $this->l('envoi de mail');
 
         $this->confirmUninstall = $this->l('Are you sure you want to uninstall?');
 
